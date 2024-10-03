@@ -52,6 +52,10 @@ function getLocation() {
 <template>
   <div>
     <button @click="getLocation">Get Location</button>
+    <nuxt-link to="/specific">
+      <button>Add Marker</button>
+    </nuxt-link>
+
 
     <p>Latitude: {{ lat }}</p>
     <p>Longitude: {{ lng }}</p>
