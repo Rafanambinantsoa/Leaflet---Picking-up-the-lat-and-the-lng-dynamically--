@@ -1,5 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  modules: ["@nuxtjs/tailwindcss"],
   css: ["leaflet/dist/leaflet.css"], // Importation de la feuille de style de Leaflet
   devtools: { enabled: true },
 
