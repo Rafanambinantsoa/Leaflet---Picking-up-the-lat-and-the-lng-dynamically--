@@ -2,8 +2,6 @@
 export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss"],
   css: ["leaflet/dist/leaflet.css"], // Importation de la feuille de style de Leaflet
-  devtools: { enabled: true },
-
   postcss: {
     plugins: {
       autoprefixer: {}, // Plugin pour ajouter automatiquement les préfixes des navigateurs
